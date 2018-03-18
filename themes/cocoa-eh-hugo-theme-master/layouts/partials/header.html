@@ -4,12 +4,7 @@
 {{ partial "head.html" . }}
 
 <body>
-<html>
-	var lock = new Auth0Lock(
-	  'WfI0pjM8ZV05Iv0RQ2nnwPkVigJfyjd1',
-	  'gotrades.auth0.com'
-	);
-</html>
+
 {{ if or (.Site.Params.small_banner_logo) (.IsPage) }}
 <div class="header column">
 {{ else }}
